@@ -23,6 +23,7 @@ This project automates the interview management process using Airtable and Maile
 
 - **Airtable Automations**: The "Run Script" action in Airtable Automations is a paid feature. We utilized **Scripting Extensions** (manual execution) as a free alternative.
 - **MailerSend Quota**: The MailerSend Free plan has sending limits. If the script stops sending emails, it is likely due to exhausting the free tier quota.
+- **Starting Dates were 2026**: The added on dates were from 2026 so first few records are negative, we assume the date belongs to the previous year (Nov 2025) and calculated it.
 
 ## Setup Instructions
 
